@@ -181,6 +181,8 @@ class TestGit:
 
     def run(self):
         """Run method that performs all the real work"""
+
+        print "ok"
         # show the dialog
         self.dlg.show()
         # Run the dialog event loop
